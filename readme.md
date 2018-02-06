@@ -24,6 +24,7 @@ https://github.com/rs/SDWebImage
 https://github.com/Alamofire/Alamofire
 ##### Long form upload
 https://github.com/xmartlabs/Eureka
+pod 'Eureka'
 ##### JSON data process
 https://github.com/SwiftyJSON/SwiftyJSON
 
