@@ -17,6 +17,8 @@ https://github.com/BeauNouvelle/SimpleCheckbox
 ##### Button utility
 https://github.com/agordeev/DCKit
 
+	pod 'DCKit', :git => 'https://github.com/agordeev/DCKit.git'
+
 ### -Function-
 ##### Web image cache
 https://github.com/rs/SDWebImage
@@ -25,7 +27,8 @@ https://github.com/Alamofire/Alamofire
 ##### Long form upload
 https://github.com/xmartlabs/Eureka
 
-pod 'Eureka'
+	pod 'Eureka'
+	
 ##### JSON data process
 https://github.com/SwiftyJSON/SwiftyJSON
 
