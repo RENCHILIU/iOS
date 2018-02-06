@@ -27,6 +27,9 @@ https://github.com/rs/SDWebImage
 	
 ##### Network tool
 https://github.com/Alamofire/Alamofire
+
+	 pod 'Alamofire', '~> 4.5'
+	 
 ##### Long form upload
 https://github.com/xmartlabs/Eureka
 
@@ -34,6 +37,10 @@ https://github.com/xmartlabs/Eureka
 	
 ##### JSON data process
 https://github.com/SwiftyJSON/SwiftyJSON
+	
+	pod 'SwiftyJSON'
+	
+	
 
 
 
