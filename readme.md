@@ -22,6 +22,9 @@ https://github.com/agordeev/DCKit
 ### -Function-
 ##### Web image cache
 https://github.com/rs/SDWebImage
+
+	pod 'SDWebImage', '~> 4.0'
+	
 ##### Network tool
 https://github.com/Alamofire/Alamofire
 ##### Long form upload
