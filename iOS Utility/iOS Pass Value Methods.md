@@ -1,22 +1,22 @@
-# iOS pass Value
+# iOS Pass Value
 
 
 
 
-Delegate Pattern :
+**Delegate Pattern :**
     从使用Delegate的地方取到值、
 
-Closure :
+**Closure :**
     从使用Closure的地方取到值、
     （类中的方法）
 
-Property :
+**Property :**
     pass value to the property 
 
-Singleton :
+**Singleton :**
     Store value in the singleton
 
-Notification :
+**Notification :**
     从通知post处接受到值、 
     （时刻监测）
 
