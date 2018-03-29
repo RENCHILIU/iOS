@@ -1,24 +1,42 @@
 
-## iOS drawing doc
-	
-  * Core Animation Programming Guide
-  * Drawing and Printing Guide for iOS
-  * Quartz 2D Programming Guide
-  * [View Programming Guide for iOS](https://github.com/RENCHILIU/iOS/blob/master/Drawing/View%20Programming%20Guide%20for%20iOS.md)
+# iOS
+
+#### Code 
+*code demo from me or others*
+
+#### Cookbook
+*Some Cookbook knowledge summary from iOS Programming Cookbook*
+
+#### iOS Utility
+*Some reality iOS problem and knowledge summary*
+
+#### Project Summary
+*Some projects summary*
+
+* [ ] Coral reef
+* [ ] ilumiscope
+
+-
+
+### Apple Doc
+*Some apple official doc knowledge summary*
+
+#### Drawing
+* [ ] Core Animation Programming Guide
+* [ ] Drawing and Printing Guide for iOS
+* [ ] Quartz 2D Programming Guide
+* [ ] View Programming Guide for iOS
+
+#### Network
+
+* [ ] URLSession
+
+#### OS
+
+* [ ] Notification Programming Topics
+* [ ] Threading Programming Guide
 
 
-## Demo
-
-  * [CookBook](https://github.com/RENCHILIU/iOS/tree/master/Cookbook)
 
 
 
-## iOS Network doc
-
-  * [iOS Network](https://github.com/RENCHILIU/iOS/blob/master/iOS%20Network.md)
-  
-  
-
-## Project 
-
-  * [Coral reef](https://github.com/RENCHILIU/iOS/blob/master/Coral%20reef.md)
