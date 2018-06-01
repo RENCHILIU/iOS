@@ -20,6 +20,7 @@ func demo(name: String?){
 func demo2(name: String?){
     guard let name = name else{
         print("nil")
+        return
     }
     print(name)     // value
 }
