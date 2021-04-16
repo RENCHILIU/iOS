@@ -10,16 +10,16 @@ You have multiple teams to work on the same iOS project and each team has its mi
 ```
 When the iOS developers are doing the development and QA are validating the testing build, they want an easy way to switch from each environment.  Preference Items should be a good way for you to accommodate this target.
 
-![Preference Items.jpg](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/Preference%20Items.jpg)
+![Preference Items.jpg](https://raw.githubusercontent.com/RENCHILIU/iOS/master/Project%20practice/SwitchEnvDemoApp/Preference%20Items.jpg)
 
 
 First, let us have a new setting buddle
 
-![newfile](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/newfile.png)
+![newfile](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/newfile.png?raw=true)
 
 Then, add the below setting to the root.plist file
-![setting config](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/setting%20config.png)
+![setting config](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/setting%20config.png?raw=true)
 
 Use the below code to read the value from your settings and you will be able to switch multiple environments.
 
-![read file](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/readthe%20value.png)
+![read file](https://github.com/RENCHILIU/iOS/blob/master/Project%20practice/SwitchEnvDemoApp/readthe%20value.png?raw=true)
