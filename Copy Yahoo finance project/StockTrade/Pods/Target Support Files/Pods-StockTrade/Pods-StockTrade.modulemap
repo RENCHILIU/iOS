@@ -1,6 +1,0 @@
-framework module Pods_StockTrade {
-  umbrella header "Pods-StockTrade-umbrella.h"
-
-  export *
-  module * { export * }
-}
