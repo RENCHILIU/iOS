@@ -13,7 +13,7 @@
   
 ## Or vs. and 
 
-Enum is better than struct when we want to idenfity the unique model. like below :
+Enum is better than struct when we want to identify the unique model. like below :
 
 
 1. Struct
