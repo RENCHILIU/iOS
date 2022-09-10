@@ -1,6 +1,16 @@
 # Modeling data with enums
 
 
+# Table of contents
+
+- [Modeling data with enums](#modeling-data-with-enums)
+  - [Or vs. and](#or-vs-and)
+  - [Enums for polymorphism](#enums-for-polymorphism)
+  - [Enums instead of subclassing](#enums-instead-of-subclassing)
+  - [Algebraic data types](#algebraic-data-types)
+  - [A safer use of strings](#a-safer-use-of-strings)
+  
+  
 ## Or vs. and 
 
 Enum is better than struct when we want to idenfity the unique model. like below :
