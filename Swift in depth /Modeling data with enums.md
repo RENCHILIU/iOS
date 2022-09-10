@@ -286,3 +286,11 @@ enum ImageType: String {
 // in the initializing , we can extend the raw String .
 }
 ```
+
+
+
+
+
+---
+
+reading notes from https://swiftindepth.com/
