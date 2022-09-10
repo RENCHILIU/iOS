@@ -217,7 +217,7 @@ struct BooleanContainer {
 
 ## A safer use of strings
 
-**[RISK]**directly using Enum rawValue 
+**[RISK]** directly using Enum rawValue 
 ```swift
 let parameters = ["filter": currency.rawValue]
 
