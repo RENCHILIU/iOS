@@ -1,3 +1,12 @@
+# Table of contents
+
+- [Writing cleaner properties](#writing-cleaner-properties)
+- [Lazy properties](#lazy-properties)
+  - [Using lazy properties](#using-lazy-properties)
+  - [Making a lazy property robust](#making-a-lazy-property-robust)
+  - [Mutable properties and lazy properties](#mutable-properties-and-lazy-properties)
+- [Property observers](#property-observers)
+
 ## Writing cleaner properties
 
 take a normal struct as an example 
