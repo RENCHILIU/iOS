@@ -12,16 +12,7 @@
   - [Constraining optional Booleans](#constraining-optional-booleans)
   - [Force unwrapping guidelines](#force-unwrapping-guidelines)
   - [Taming implicitly unwrapped optionals](#taming-implicitly-unwrapped-optionals)
-- [Making optionals second nature](#making-optionals-second-nature)
-  - [Clean optional unwrapping](#clean-optional-unwrapping)
-  - [Variable shadowing](#variable-shadowing)
-  - [When optionals are prohibited](#when-optionals-are-prohibited)
-  - [Returning optional strings](#returning-optional-strings)
-  - [Granular control over optionals](#granular-control-over-optionals)
-  - [Falling back when an optional is nil](#falling-back-when-an-optional-is-nil)
-  - [Simplifying optional enums](#simplifying-optional-enums)
-  - [Chaining optionals](#chaining-optionals)
-  - [Constraining optional Booleans](#constraining-optional-booleans)
+
   
 # Making optionals second nature
 
