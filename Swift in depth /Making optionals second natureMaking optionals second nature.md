@@ -1,3 +1,4 @@
+
 # Table of contents
 
 - [Making optionals second nature](#making-optionals-second-nature)
@@ -10,10 +11,7 @@
   - [Simplifying optional enums](#simplifying-optional-enums)
   - [Chaining optionals](#chaining-optionals)
   - [Constraining optional Booleans](#constraining-optional-booleans)
-  - [Force unwrapping guidelines](#force-unwrapping-guidelines)
-  - [Taming implicitly unwrapped optionals](#taming-implicitly-unwrapped-optionals)
 
-  
 # Making optionals second nature
 
 ## Clean optional unwrapping
