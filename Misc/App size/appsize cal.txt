@@ -1,0 +1,51 @@
+import Foundation
+
+// Get the command-line arguments
+let arguments = CommandLine.arguments
+
+// Make sure we have the correct number of arguments
+if arguments.count != 6 {
+    print("Usage: swift calculate-xcframework-size.swift <project_path> <scheme> <archive_path> <export_path> <export_options_plist_path>")
+    exit(1)
+}
+
+// Get the argument values
+let projectPath = arguments[1]
+let scheme = arguments[2]
+let archivePath = arguments[3]
+let exportPath = arguments[4]
+let exportOptionsPlistPath = arguments[5]
+
+// Build and archive the XCFramework
+let xcodebuild = Process()
+xcodebuild.launchPath = "/usr/bin/xcodebuild"
+xcodebuild.arguments = ["-project", projectPath, "-scheme", scheme, "archive", "-archivePath", archivePath]
+xcodebuild.launch()
+xcodebuild.waitUntilExit()
+
+// Export the XCFramework
+let export = Process()
+export.launchPath = "/usr/bin/xcodebuild"
+export.arguments = ["-export-archive", "-archivePath", archivePath, "-exportPath", exportPath, "-exportOptionsPlist", exportOptionsPlistPath]
+export.launch()
+export.waitUntilExit()
+
+// Calculate the size of the XCFramework
+let xcframeworkPath = "\(exportPath)/YourFramework.xcframework"
+let url = URL(fileURLWithPath: xcframeworkPath)
+let fileManager = FileManager.default
+
+guard fileManager.fileExists(atPath: xcframeworkPath) else {
+    print("Error: file does not exist at path \(xcframeworkPath)")
+    exit(1)
+}
+
+do {
+    let attributes = try fileManager.attributesOfItem(atPath: xcframeworkPath)
+    let fileSize = attributes[.size] as! Double
+    let sizeInMb = fileSize / (1024 * 1024)
+    print("The size of the XCFramework is \(sizeInMb) MB")
+} catch {
+    print("Error: \(error.localizedDescription)")
+    exit(1)
+}
